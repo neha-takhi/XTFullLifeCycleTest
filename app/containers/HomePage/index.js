@@ -232,7 +232,7 @@ export function HomePage({
             {filter.map((item, index) => <Tag closable key={`tag-${index}`} onClose={()=>removeFilterFunc(item)}>
                 {item.filter}
                 </Tag>)
-            })}
+            }
           </Row>
           <Row justify="end">
             <Col xs={24} md={12} style={colStyle}>

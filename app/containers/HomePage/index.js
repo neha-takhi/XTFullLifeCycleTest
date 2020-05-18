@@ -256,7 +256,7 @@ export function HomePage({
               resultArr.length > 0 ? resultArr.map((item, index) => <Col md={6} xs={12} key={`cards-${index}`}>
                     <Cards content={item} type="imageWithContent" />
                   </Col>) : <div>no data found</div>
-            )}
+            }
           </Row>
         </Col>
       </Row>
